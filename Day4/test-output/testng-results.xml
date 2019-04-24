@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108" started-at="2019-04-17T13:16:53Z" finished-at="2019-04-17T13:16:53Z">
+    <groups>
+    </groups>
+    <test name="carLoan" duration-ms="38" started-at="2019-04-17T13:16:53Z" finished-at="2019-04-17T13:16:53Z">
+      <class name="loanexample.CarLoan">
+        <test-method status="PASS" signature="carLoanAppium()[pri:0, instance:loanexample.CarLoan@fc185]" name="carLoanAppium" duration-ms="14" started-at="2019-04-17T13:16:53Z" finished-at="2019-04-17T13:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanAppium -->
+      </class> <!-- loanexample.CarLoan -->
+    </test> <!-- carLoan -->
+    <test name="homeLoan" duration-ms="3" started-at="2019-04-17T13:16:53Z" finished-at="2019-04-17T13:16:53Z">
+      <class name="loanexample.HomeLoan">
+        <test-method status="PASS" signature="homeLoanAppium()[pri:0, instance:loanexample.HomeLoan@be83e4]" name="homeLoanAppium" duration-ms="1" started-at="2019-04-17T13:16:53Z" finished-at="2019-04-17T13:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanAppium -->
+      </class> <!-- loanexample.HomeLoan -->
+    </test> <!-- homeLoan -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <test thread-count="5" name="Test"> <classes> <class name="firsttestngpackage.firsttestngfile"> 
+		<class name="secondtestngpackage.secondtestngfile" /> </classes> -->
+
+	<test name="carLoan">
+
+		<classes>
+			<class name="loanexample.CarLoan">
+				<methods>
+					<exclude name="carLoanSelenium">
+
+					</exclude>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="homeLoan">
+		<classes>
+
+			<class name="loanexample.HomeLoan">
+				<methods>
+					<include name="homeLoanAppium">
+					</include>
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
