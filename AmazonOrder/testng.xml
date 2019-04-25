@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="makeanorder.Setup">
+			</class>
+	
+	<!-- 		<class name="makeanorder.LandingPage">
+			</class> -->
+			<!-- 
+			<class name="makeanorder.Login">
+			</class> -->
+	
+		
+			<class name="makeanorder.HomePage">
+			</class>
+			
+			
+				<class name="makeanorder.ProductPage">
+			</class>
+			
+			<class name="makeanorder.AddToCart">
+			</class>
+			
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
